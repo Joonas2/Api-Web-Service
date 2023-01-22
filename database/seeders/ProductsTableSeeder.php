@@ -3,8 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Product;
-use Carbon\Factory;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
 use Illuminate\Database\Seeder;
 
 class ProductsTableSeeder extends Seeder

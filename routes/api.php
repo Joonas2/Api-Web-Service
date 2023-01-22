@@ -23,3 +23,6 @@ Route::get('category/{id}','App\Http\Controllers\Api\CategoryController@show');
 Route::post('categories', 'App\Http\Controllers\Api\CategoryController@store');
 Route::put('categories/{id}', 'App\Http\Controllers\Api\CategoryController@update');
 Route::delete('categories/{id}', 'App\Http\Controllers\Api\CategoryController@delete');
+
+Route::get('products', 'App\Http\Controllers\Api\ProductController@index');
+Route::post('products', 'App\Http\Controllers\Api\ProductController@store');
